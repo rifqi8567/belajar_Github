@@ -105,3 +105,16 @@ git push
              |    Workspace         |
              |  (Tempat ngoding)    |
              +----------------------+
+
+
+
+//  ! Instalasi git
+
+// ^ GIT for Mac OS
+https://git-scm.com/downloads/mac
+
+// ^GIT for Linux and  Unix
+https://git-scm.com/downloads/linux
+
+// ^ GIT for Windows
+https://git-scm.com/downloads/win
