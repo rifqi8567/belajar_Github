@@ -69,4 +69,66 @@ Date:   Tue Jul 13 20:00:00 2025 +0700   //kpn commit ini di buat
     Menambahkan fitur login dengan JWT  // pesannya
 
 
+//! Untuk melihat file yang berubah dan yang ada pada staging, kita dapat menggunakan command
 
+git status
+
+
+// ? Untuk menambahkan perubahaan saat ini ke staging area, kita bisa menggunakan command
+
+
+git add <nama_file>
+
+
+// ! git log --graph
+
+
+Fungsinya:
+Menampilkan history commit Git dalam bentuk grafik/diagram pohon (graph) di terminal. Jadi, kamu bisa lihat visual cabang, penggabungan (merge), dan urutan commit secara lebih jelas dan terstruktur.
+
+
+Contoh output:
+
+* commit 9a4b3c2
+| Author: Rifqi
+| Date: ...
+|
+*   commit 7f8d6a1 (HEAD -> main)
+|\  Merge: 3e4f6b 1d2e3f
+| | Author: Rifqi
+| | Date: ...
+| |
+| * commit 3e4f6b2 (feature-branch)
+| | Author: Rifqi
+| | Date: ...
+| |
+| * commit 1d2e3f4
+|/
+* commit 0a1b2c3
+
+
+// ! git log --oneline
+//^ Fungsinya:
+//* Menampilkan daftar commit Git dalam format ringkas, satu baris per commit. Jadi, setiap commit hanya ditampilkan dengan:
+
+Singkat hash commit (beberapa karakter awal dari kode unik commit)
+
+Pesan commit singkat
+
+//! Kenapa pakai --oneline?
+
+Buat lihat history commit dengan cepat tanpa detail panjang
+
+Mudah membaca banyak commit sekaligus di terminal
+
+Biasa dipakai bersama opsi lain, misal:
+
+git log --oneline --graph --decorate
+
+output
+PS C:\Users\User\Materi RIS\materi_GIT> git log --oneline --graph --decorate
+* 3660c2e (HEAD -> main, origin/main) commit3
+* d7a3e38 commit2
+* cfa2ca5 commit1
+* 1cc08e3 first commit
+PS C:\Users\User\Materi RIS\materi_GIT> 
