@@ -10,3 +10,5 @@
 | ----------- | -------------------------------------------------------------------- |
 | `git fetch` | Mengambil data dari remote, **tanpa menggabungkan** ke branch lokal  |
 | `git pull`  | Mengambil data dari remote **dan langsung menggabungkannya** (merge) |
+
+
